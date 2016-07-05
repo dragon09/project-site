@@ -16,7 +16,7 @@
 body {
 color:  #C390D4;
 font-size: 1em;
-background-image: url(project site/summer-sunset.jpg);
+/*background-color: #FFCF33;*/
 font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -65,6 +65,7 @@ a:visited {
 }
 
 .masthead {
+  background-image: url("summer-sunset.jpg");
   padding: 6em 0;
   background-repeat: no-repeat;
   background-size: cover;
