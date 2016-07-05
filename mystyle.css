@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+, sans-serif;
+
+::selection {
+  background: #FFE799;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFCF33;
+}
+
+a:hover {
+  color: #FFE799;
+}
+
+a:visited {
+  color: #D1A000;
+}
+
+.side-padding {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content-width {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-font > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+/*.content-footer, {
+.masthead-intro,
+.masthead-heading,
+  text-align: center;
+}*/
+
+.masthead {
+  padding: 6em 0;
+  /*background-image: url('http://i.imgur.com/isl8ghv.jpg?1');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  color: #FFFFFF;
+  font-family: "Gentium Book Basic", Georgia;
+  font-size: 2em;
+}
+.masthead-heading {
+ margin-top: -0.2em;
+ color: #FFF1C2;
+ font-family: "Open Sans", "Helvetica Neue", sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 6em;
+ letter-spacing: -0.02em;
+ text-transform: uppercase;
+ text-shadow: 0px 3px 0px #FFCF33;
+}
+
+.heading {
+  max-width: 19em;
+  margin-top: 2em;
+}
+
+.content-footer {
+  text-align: center;
+  background:
+  linear-gradient(
+  -170.7941764903635deg,
+  rgba(255,130,214,1) 1.7361%,
+  rgba(145,63,150,1) 97.292%);
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead{
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+/*.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social {
+  display: inline-block;
+
+}
+
+.content-footer {
+  text-align: center;
+  background:
+  linear-gradient(
+  -170.7941764903635deg,
+  rgba(255,130,214,1) 1.7361%,
+  rgba(145,63,150,1) 97.292%);
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+h4 {
+  color: 0DFFAB;
+}
+
+.social_network < li {
+  text-align: center;
+}
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans" , "Helvetica Neue" , sans-serif;
+}*/
