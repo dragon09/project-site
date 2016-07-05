@@ -3,7 +3,11 @@
 }
 
 body {
-, sans-serif;
+color:  #C390D4;
+font-size: 1em;
+background-image: url(project site/summer-sunset.jpg);
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
 
 ::selection {
   background: #FFE799;
@@ -43,15 +47,14 @@ a:visited {
   letter-spacing: 0.05em;
 }
 
-/*.content-footer, {
+.content-footer, {
 .masthead-intro,
 .masthead-heading,
   text-align: center;
-}*/
+}
 
 .masthead {
   padding: 6em 0;
-  /*background-image: url('http://i.imgur.com/isl8ghv.jpg?1');*/
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em #FFCF33;
@@ -60,19 +63,47 @@ a:visited {
 .masthead-intro {
   margin-bottom: 0.1em;
   color: #FFFFFF;
-  font-family: "Gentium Book Basic", Georgia;
+  font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 2em;
 }
+
 .masthead-heading {
  margin-top: -0.2em;
  color: #FFF1C2;
  font-family: "Open Sans", "Helvetica Neue", sans-serif;
- font-style: normal;
  font-weight: bold;
  font-size: 6em;
  letter-spacing: -0.02em;
  text-transform: uppercase;
  text-shadow: 0px 3px 0px #FFCF33;
+}
+
+introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
 }
 
 .heading {
@@ -94,10 +125,6 @@ a:visited {
   list-style: none;
 }
 
-.social > li {
-  display: inline-block;
-  margin-right: 1em;
-}
 
 @media screen and (max-width: 500px) {
   .masthead{
